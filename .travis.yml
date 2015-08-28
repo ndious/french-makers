@@ -1,4 +1,12 @@
+language: ruby
+
+rvm:
+  - 2.1.0
+
+install: gem install jekyll
+
 script: bash ./deploy.sh
+
 env:
   global:
   - GH_REF: github.com/tiink-it/french-makers.git
